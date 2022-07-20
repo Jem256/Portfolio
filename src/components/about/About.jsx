@@ -1,6 +1,6 @@
-import React from 'react'
-import './About.css'
-import me from '../../assets/me-about.png'
+import React from "react";
+import "./About.css";
+import me from "../../assets/me-about.png";
 // import {FaAward} from 'react-icons/fa'
 // import {FiUsers} from 'react-icons/fi'
 // import {VscFolderLibrary} from 'react-icons/vsc'
@@ -10,7 +10,7 @@ import me from '../../assets/me-about.png'
 
 function About() {
   return (
-    <section id='about'>
+    <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
@@ -22,7 +22,7 @@ function About() {
         </div>
 
         <div className="about__content">
-          {/*<div className="about__cards">
+          {/* <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
@@ -43,20 +43,22 @@ function About() {
           </div> */}
 
           <p>
-            I am a self-taught frontend end developer located in Uganda. I am 
-            passionate about creating beautiful and user friendly applications. <br />
+            I am a self-taught frontend end developer located in Uganda. I am
+            passionate about creating beautiful and user friendly applications.
             <br />
-            Well-organised person, problem solver, independent worker with a high 
-            attention to detail. A fan of african literature and a sustainable menstrual
-            health advocate at Eco Options.
+            <br />
+            Well-organised person, problem solver, independent worker with a
+            high attention to detail. A fan of african literature and a
+            sustainable menstrual health advocate at Eco Options.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Connect</a>
+          <a href="#contact" className="btn btn-primary">
+            Let&apos;s Connect
+          </a>
         </div>
-
       </div>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;

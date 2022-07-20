@@ -8,7 +8,6 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  
 }
 
 :root {
@@ -49,7 +48,11 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
@@ -61,7 +64,8 @@ section {
   margin-top: 4rem;
 }
 
-section > h2, section > h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
@@ -137,4 +141,3 @@ img {
     margin-top: 3rem;
   }
 }
-

@@ -1,0 +1,68 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": ["*.jsx", "*.js"]
+    }
+  ],
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "max-len": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "react/prop-types": 0,
+    "no-unused-vars":"warn",
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+
+    // form label  setting
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+
+    // anchor invalid
+
+    "jsx-a11y/anchor-is-valid": [
+      "off",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["noHref", "invalidHref", "preferButton"]
+      }
+    ],
+
+    // distructure props
+
+    "react/destructuring-assignment": [
+      "off",
+      "always",
+      { "ignoreClassFields": "off", "destructureInSignature": "ignore" }
+    ],
+
+    // ternary opertaor
+    "no-nested-ternary": "warn"
+  }
+}
