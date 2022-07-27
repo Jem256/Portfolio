@@ -28,19 +28,18 @@ function Contact() {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>jemynagasha@gmail.com</h5>
-            <a href="mailto:jemynagasha@gmail.com" target='_blank'>Send a message</a>
+            <a href="mailto:jemynagasha@gmail.com" target='_blank' rel="noreferrer">Send a message</a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Jemimah Nagasha</h5>
-            <a href="https://m.me/jemimah.nagasha" target='_blank'>Send a message</a>
-          </article>
+            <a href="https://m.me/jemimah.nagasha" target='_blank' rel="noreferrer">Send a message</a>
+          </article> */}
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5></h5>
-            <a href="https://api.whatsapp/send?phone+256705464186" target='_blank'>Send a message</a>
+            <a href="https://api.whatsapp/send?phone+256705464186" target='_blank' rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
