@@ -6,7 +6,6 @@
 
 .portfolio__item {
     background: var(--color-bg-variant);
-    padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -20,16 +19,26 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    
+}
+
+.portfolio__content {
+    padding-left: 1.2rem;
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1rem 0 0;
 }
 
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */

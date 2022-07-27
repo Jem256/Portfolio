@@ -18,6 +18,9 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact__option:hover {
