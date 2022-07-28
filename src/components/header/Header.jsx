@@ -9,7 +9,7 @@ function Header() {
   return (
     <header>
       <div className="container header__container">
-        <h2>Hello I'm</h2>
+        <h2 className="greet">Hello I'm</h2>
         <h1>Nagasha Jemimah</h1>
         <h2 className="text-light">
           A web developer based in
