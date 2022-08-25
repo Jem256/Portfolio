@@ -2,6 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import IMG1 from "../../assets/ecoOptions.png";
 import IMG2 from "../../assets/linked.png";
+import IMG3 from "../../assets/covid.png";
 
 function Portfolio() {
   const data = [
@@ -21,6 +22,25 @@ function Portfolio() {
       ),
       github: "https://github.com/Jem256/ecooptions",
       demo: "https://ecooptionsug.com",
+    },
+    {
+      id: 2,
+      image: IMG3,
+      title: "Nigeria Covid Data",
+      description: (
+        <p>
+          This project was built as part of an interview process. 
+          It uses <span className="underline">redux</span> to fetch covid data of nigeria from
+          {" "}
+          <a href="https://covidnigeria.herokuapp.com/api">
+            an open source api.
+          </a>
+          {" "}
+          The UI was built using ReactJs and CSS. A summary of the country's data is displayed and the search feature is used to query data by state.
+        </p>
+      ),
+      github: "https://github.com/Jem256/FrontendDevTask-FetchData",
+      demo: "https://fetchcoviddata.netlify.app/",
     },
     {
       id: 3,
@@ -61,7 +81,7 @@ function Portfolio() {
           }) => (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <img src={image} alt={title} width={50} height={300} />
               </div>
               <div className="portfolio__content">
                 <h3>{title}</h3>

@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import CV from "../../assets/NAGASHA-CV.pdf";
+import CV from "../../assets/NagashaJ-CV.pdf";
 
 function CTA() {
   return (
