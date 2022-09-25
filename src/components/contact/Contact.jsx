@@ -48,19 +48,28 @@ function Contact() {
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            name="message"
-            rows="7"
-            placeholder="Your Message"
-            required
-          />
+          <div className="form__group">
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              required
+            />
+          </div>
+          <div className="form__group">
+            <label htmlFor="email">Email</label>
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div className="form__group">
+            <label htmlFor="message">Message</label>
+            <textarea
+              name="message"
+              rows="7"
+              placeholder="Your Message"
+              required
+            />
+          </div>
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>

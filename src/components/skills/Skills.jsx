@@ -43,14 +43,14 @@ function Skills() {
               </div>
             </article>
             <article className="experience__details">
-              <SiRedux className="experience__details-icon" />
+              <SiRedux className="experience__details-icon" role="img" />
               <div>
                 <h4>Redux</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <SiTailwindcss className="experience__details-icon" />
+              <SiTailwindcss className="experience__details-icon" role="img" />
               <div>
                 <h4>TailwindCss</h4>
               </div>
