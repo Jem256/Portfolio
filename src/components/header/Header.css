@@ -1,6 +1,5 @@
 header {
-    height: 100vh;
-    padding-top: 10rem;
+    padding-top: 6rem;
     overflow: hidden;
 }
 
@@ -68,7 +67,6 @@ header {
 .segunda{margin-top: 8px;}
 
 .cta-arrow{
-    cursor: pointer; 
     position: absolute;
     display: flex;
     align-items: center;
@@ -110,13 +108,19 @@ header {
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
-        margin-top: -8rem;
+        /* height: 100vh; */
+        margin-top: -4rem;
     }
     .center-con{
+        margin-top: 2.5rem;
+    }
+    .cta {
+        margin-top: 1rem;
+    }
+    .scroll__down {
         display: none;
     }
-    .scroll__down, .header__socials {
-        display: none;
+    .header__socials {
+        margin-top: -1rem;
     }
 }
