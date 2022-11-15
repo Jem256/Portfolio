@@ -20,7 +20,7 @@ function Portfolio() {
           hosting.
         </p>
       ),
-      github: 'Private',
+      github: 'https://github.com/Jem256/V-Farm-Web',
       demo: 'https://v-farm-4653d.web.app/',
     },
     {
