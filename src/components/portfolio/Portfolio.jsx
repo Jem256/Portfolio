@@ -31,7 +31,7 @@ function Portfolio() {
         <p>
           I built this project for a local ecommerce sustainable menstrual
           health startup,{' '}
-          <a href="https://covidnigeria.herokuapp.com/api">Eco Options.</a>{' '}
+          <a href="http://ecooptions-71600.web.app/">Eco Options.</a>{' '}
           <span className="underline">ReactJs</span> and the
           <span className="underline"> Redux ToolKit</span> was used to build
           and handle state management. It is integrated with{' '}
@@ -41,7 +41,7 @@ function Portfolio() {
         </p>
       ),
       github: 'https://github.com/Jem256/ecooptions',
-      demo: 'https://ecooptionsug.com',
+      demo: 'http://ecooptions-71600.web.app/',
     },
     {
       id: 3,
