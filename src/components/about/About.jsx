@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import "./About.css";
-import me from "../../assets/Me.png";
+import me from '../../assets/me.png';
 
 function About() {
   return (
@@ -18,34 +18,19 @@ function About() {
 
         <div className="about__content">
           <p>
-            I recently graduated from
-            {" "}
-            <span className="special">Makerere University</span>
-            {" "}
-            after
-            completing Bachelor of Science in Civil Engineering.
-            <br />
-            {" "}
-            <br />
-            <span className="special">As a web developer,</span>
-            {" "}
-            I
-            enjoy bridging the gap between engineering and design —
-            combining my technical knowledge with my keen eye for
-            design to create a beautiful product. My goal is to always
-            build applications that are scalable and efficient under
-            the hood while providing engaging, pixel-perfect user
-            experiences.
-            <br />
-            {" "}
-            <br />
+            <span className="special">As a web developer,</span> I enjoy
+            bridging the gap between engineering and design — combining my
+            technical knowledge with my keen eye for design to create a
+            beautiful product. My goal is to always build applications that are
+            scalable and efficient under the hood while providing engaging,
+            pixel-perfect user experiences.
+            <br /> <br />
             <span className="special">
               When I'm not in front of a computer screen,
-            </span>
-            {" "}
-            I'm probably immersing myself in some fictional
-            literature and advocating for sustainable menstrual health
-            practices at Eco Options.
+            </span>{' '}
+            I'm probably immersing myself in some fictional literature and
+            advocating for sustainable menstrual health practices at Eco
+            Options.
           </p>
 
           <a href="#contact" className="btn btn-primary">

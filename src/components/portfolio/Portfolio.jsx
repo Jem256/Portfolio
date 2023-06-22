@@ -12,12 +12,11 @@ function Portfolio() {
       title: 'Virtual Farm',
       description: (
         <p>
-          I am building this platform for a local startup using{' '}
-          <span className="underline">ReactJs</span> ,{' '}
-          <span className="underline">Context API</span> for state management
-          and <span className="underline">TailwindCss</span> for styling. It
-          uses <span className="underline">Firebase</span> for the backend and
-          hosting.
+          Developed a virtual farm platform for a local startup using ReactJS,
+          Firebase, Context API, and Tailwind CSS. Implemented features such as
+          user authentication, real-time updates, nested routing, search and
+          cart functionality, favorites management, and a user-friendly
+          dashboard.
         </p>
       ),
       github: 'https://github.com/Jem256/V-Farm-Web',
@@ -29,15 +28,11 @@ function Portfolio() {
       title: 'Eco Options',
       description: (
         <p>
-          I built this project for a local ecommerce sustainable menstrual
-          health startup,{' '}
-          <a href="http://ecooptions-71600.web.app/">Eco Options.</a>{' '}
-          <span className="underline">ReactJs</span> and the
-          <span className="underline"> Redux ToolKit</span> was used to build
-          and handle state management. It is integrated with{' '}
-          <span className="underline">Flutterwave API</span> to handle customer
-          payments and uses <span className="underline">Firebase</span> for it's
-          backend and hosting.
+          Developed a full-fledged e-commerce platform using ReactJS, and
+          Firebase, and integrated the Flutterwave API for seamless payment
+          processing. Implemented responsive design, efficient user
+          authentication, real-time product updates, and secure payment
+          handling.
         </p>
       ),
       github: 'https://github.com/Jem256/ecooptions',
@@ -49,15 +44,12 @@ function Portfolio() {
       title: 'Nigeria Covid Data',
       description: (
         <p>
-          This project was built as part of an interview process. It uses{' '}
-          <span className="underline">redux</span> to fetch covid data of
-          nigeria from{' '}
-          <a href="https://covidnigeria.herokuapp.com/api">
-            an open source api.
-          </a>{' '}
-          The UI was built using ReactJs and CSS. A summary of the country's
-          data is displayed and the search feature is used to query data by
-          state.
+          Developed a web application that uses redux to fetch covid data of
+          Nigeria from an{' '}
+          <a href="https://covidnigeria.herokuapp.com/api">open-source API</a> .
+          I implemented a search feature to allow users to query data by state
+          and get a summary of the country's covid-19 data. The UI was built
+          using ReactJs and CSS.
         </p>
       ),
       github: 'https://github.com/Jem256/FrontendDevTask-FetchData',
